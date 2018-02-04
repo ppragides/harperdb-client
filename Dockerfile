@@ -1,6 +1,6 @@
 ## Build NPM Modules
 
-FROM nodejs:latest
+FROM node:latest
 
 # Set the working directory to /app
 WORKDIR /app
