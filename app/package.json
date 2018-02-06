@@ -1,0 +1,18 @@
+{
+  "name": "harper-db-client",
+  "version": "0.0.1",
+  "author": "Paolo Pragides<ppragides@hotmail.com>",
+  "description": "Basic client for making http requests to a harperdb instance",
+  "main": "./index.js",
+  "contributors": [
+    {
+      "name": "Paolo Pragides",
+      "email": "ppragides@hotmail.com"
+    }
+  ],
+  "dependencies": {
+    "commander": "^2.9.0",
+    "restify": "^1.4.4",
+    "http": "*"
+  }
+}
