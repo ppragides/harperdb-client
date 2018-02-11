@@ -39,7 +39,10 @@ server.use(restify.bodyParser());
  * Server is ready, let's set up the routes 
  * 
  */
-server.get('/', HarperClient.echo);
+server.get('/', HarperClient.get);
+server.del('/', HarperClient.delete)
+server.post('/', HarperClient.update)
+server.put('/', HarperClient.save)
 
 
 //******************    START LISTENING ON PORT      ********************//
